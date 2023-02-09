@@ -5,6 +5,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans';
+    border:none;
     
 }
 
@@ -12,6 +13,7 @@
 body {
     width:100%;
     height: auto;
+    
     
 
 }
@@ -35,8 +37,13 @@ header {
    border-radius: 28px;
    font-size: 16px;
    font-weight:700; 
+   cursor:pointer;
+   
 }
 
+.header-btn:hover {
+    background-color: #666CA3;
+}
 main {
     margin-top:38px;
     padding-left:16px;
@@ -45,6 +52,14 @@ main {
     align-items:center;
     
   
+}
+
+.image-hero{
+
+        position:relative;
+        top:-10px;
+        left:-5px;
+
 }
 
 .main-hedding {
@@ -80,7 +95,11 @@ Line-height: 50px;
      line-height: 26px;
      border:none;
      margin-top:24px;
+     cursor: pointer;
     
+}
+.button-2:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 }
  
 .popular-courses {
@@ -88,18 +107,16 @@ Line-height: 50px;
     width:343px;
     border-radius:10px;
     height:120px;
-    font-size:24px;
-    
     margin:auto;
 }
 
 .check-out {
     color:white;
     font-weight:800;
-    text-align: center;
     line-height: 32px;
     display:flex;
-    padding-top: 24px;
+    padding: 24px 29px 32px 28px;
+    text-align:left;
     width:286px;
     font-size: 24px;
     
@@ -112,13 +129,16 @@ Line-height: 50px;
     border-radius: 10px;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     justify-content: center;
+    padding-left:28px;
+    padding-right: 29px;
+
 }
 
 
 
 
 .gradient-color {
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    background: background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     padding-bottom: 80px;
     gap:40px;
    display: flex;
@@ -130,6 +150,8 @@ Line-height: 50px;
 
     
 }
+
+
 
 .satauri {
     color: #13183F;
@@ -149,6 +171,8 @@ Line-height: 50px;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    margin-top:16px;
+    
 
 }
 
@@ -158,10 +182,19 @@ text-decoration: none;
 font-weight: 700;
 font-size: 18px;
 line-height: 28px;
+margin-top:24px;
+display:block;
+cursor: pointer;
+
 
 }
 
-footer {
+
+.starti:hover {
+   color:  #FFA7C3;
+}
+
+.footer {
     background-color: #13183F;
     width: 375px;
     height: 120px;                                          
@@ -169,12 +202,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding:0 16px;
-    margin-top:16px;
 
-   
-   
-   
-    
     
 }
 
@@ -189,5 +217,13 @@ footer {
     line-height: 28px;
     cursor: pointer;
     text-decoration: none;
+    cursor: pointer;
+
 }
-    
+    .footer-btn:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+
+    /*tablet version*/
+
+   
