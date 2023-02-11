@@ -11,7 +11,7 @@
 body {
     width:100%;
     height: auto;
-    overflow: hidden;
+    
 }
 
 header {
@@ -53,7 +53,7 @@ main {
 
 .image-hero{
     position:relative;
-    top:-10px;
+    top:-25px;
     left:-5px;
 }
 
@@ -78,7 +78,7 @@ main {
 
 }
 .button-2{
-    background: linear-gradient(180deg, #dfdcdb 0%, #F02AA6 100%);
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
      width: 167px;
      height: 56px;
      border-radius: 31.5px;
@@ -199,24 +199,72 @@ main {
     /* tablet version */
 
    
-        /* @media screen and (min-width:768px) {
-            
-            .main-info-box {
-              
+         @media screen and (min-width:768px) {
+
+
+            body  {
+                background-image: url("./img/image-hero-tablet.png");
+                background-repeat: no-repeat;
+                background-position: top -103px right -312px;
                 
             }
+            
+         
+         
+         
+            main{
+                flex-direction: row;
+                height: 550px;
+                align-items:flex-start;
+                
+            }
+            .main-info-box {
+                width: 400px;
+                margin-left:39px;
+            }
 
-              .image-hero {
+              .image-hero1 {
     
                 display:none;
               }
-              .tablet-photo {
-                display:block;
-                transform: translate(327px, -347px);
+              
+              .main-hedding { 
+
+                margin-top:105px;
                 
+               }
+                header img {
+                    margin-left:39px;
+                }
+
+                .gradient-color{
+                    flex-direction: row;
+                    flex-wrap:wrap;
+                    justify-content: center;
+                }
+                .popular-courses{
+                    margin:0; 
+                    Width:339px;
+                    height:259px;
+                
+                }
+                .check-out{
+                    margin-top:56px;
+                }
+                .footer {
+                    width: 100%;
+                }
+                footer img {
+                    margin-left:40px;
+                }
+                footer button {
+                    margin-right: 39px;
+                }
+
+
               }
     
-        } */
+        
 
     
 
