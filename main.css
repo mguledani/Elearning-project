@@ -210,8 +210,6 @@ main {
             }
             
          
-         
-         
             main{
                 flex-direction: row;
                 height: 550px;
@@ -264,7 +262,32 @@ main {
 
               }
     
+        /* desktop version */
+
+        @media screen and (min-width:1440px) {
+
+            .header-btn{
+                margin-right:165px;
+            }
+          
+        .gradient-color {
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        body {
         
+         background-position: top -76px right -183px;
+            
+        }
+            
+        
+
+    }
+
+
+
+    
 
     
 
