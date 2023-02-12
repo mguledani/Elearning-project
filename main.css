@@ -231,9 +231,9 @@ main {
                 margin-top:105px;
                 
                }
-                header img {
-                    margin-left:39px;
-                }
+               header img {
+                margin-left:39px;
+            }
 
                 .gradient-color{
                     flex-direction: row;
@@ -264,10 +264,10 @@ main {
     
         /* desktop version */
 
-        @media screen and (min-width:1440px) {
+        @media screen and (min-width:1440px)  {
 
             .header-btn{
-                margin-right:165px;
+                margin-right:42px;
             }
           
         .gradient-color {
@@ -280,10 +280,39 @@ main {
          background-position: top -76px right -183px;
             
         }
+        .main-info-box {
+            margin-left:165px;
+        }
             
-        
+        header img {
+            margin-left:165px;
+        }
 
     }
+     
+    @media screen and (min-width:1360px)  {
+
+        .header-btn{
+            margin-right:124px;
+        }
+      
+    .gradient-color {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    body {
+    
+     background-position: top -76px right -183px;
+        
+    }
+    .main-info-box {
+        margin-left:165px;
+    }
+    header img {
+        margin-left:165px;
+    }
+}
 
 
 
